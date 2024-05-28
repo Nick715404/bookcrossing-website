@@ -1,9 +1,11 @@
-import { unbounded } from "./layout";
 import { MotionBox } from "@/components/MotionBox";
+import { Unbounded } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const unbounded = Unbounded({ subsets: ["latin"] });
+  
   return (
     <main>
       <section className="py-8">

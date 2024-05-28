@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Unbounded } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-export const unbounded = Unbounded({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Буккроссинг.рф | Приложение по обмену книгами",
