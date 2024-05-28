@@ -3,9 +3,9 @@ import { Unbounded } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
+const unbounded = Unbounded({ subsets: ["latin"] });
+
 export default function Home() {
-  const unbounded = Unbounded({ subsets: ["latin"] });
-  
   return (
     <main>
       <section className="py-8">
