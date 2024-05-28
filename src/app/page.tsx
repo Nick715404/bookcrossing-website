@@ -62,7 +62,7 @@ export default function Home() {
               </div>
             </MotionBox>
 
-            <MotionBox className="w-[49%] h-[59dvh] 2xl:h-[67dvh] flex sm:w-full sm:h-[58dvh] sm:order-2">
+            <MotionBox className="w-[49%] h-[59dvh] 2xl:h-[67dvh] flex sm:w-full sm:h-[510px] sm:order-2">
               <div id="4" className="relative bg-blue rounded-[45px] p-16 overflow-hidden shadow-xl sm:p-5 sm:rounded-3xl">
                 <h1 className={`${unbounded.className} block text-3xl leading-[1.1] mb-4 text-white`}>
                   Добро пожаловать<br /> в Буккроссинг
@@ -86,7 +86,7 @@ export default function Home() {
             <div className="w-[49%] sm:w-full order-5">
 
               <MotionBox delay={0.1} className="order-5">
-                <div id="5" className="relative bg-red rounded-[35px] shadow-xl p-[30px] overflow-hidden mb-[20px] sm:p-5 sm:rounded-3xl sm:h-[55dvh]">
+                <div id="5" className="relative bg-red rounded-[35px] shadow-xl p-[30px] overflow-hidden mb-[20px] sm:p-5 sm:rounded-3xl sm:h-[480px]">
                   <span className={`${unbounded.className} block text-red-text text-white leading-8 mb-[9px] sm:text-[28px]`}>
                     В каталоге есть<br /> все, что нравится!
                   </span>
