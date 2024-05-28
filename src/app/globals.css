@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1420px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.motion-box {
+  width: inherit;
+}
