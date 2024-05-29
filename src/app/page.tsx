@@ -19,7 +19,7 @@ export default function Home() {
                   height={194}
                   src='/logo.svg'
                   alt="Логотип Буккроссинг.рф"
-                  className="2xl:w-24 lg:w-36 sm:w-20"
+                  className="2xl:w-32 lg:w-36 sm:w-20"
                   style={{ height: 'auto' }}
                 />
                 <span className={`${unbounded.className} font-medium text-xl 2xl:text-[20px] lg:text-[30px] sm:text-[22px]`}>Буккроссинг.рф</span>
