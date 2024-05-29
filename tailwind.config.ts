@@ -16,7 +16,9 @@ const config: Config = {
       red: '#F56363',
     },
     screens: {
-      '2xl': { 'max': '1690px' },
+      '3xl': { 'max': '1690px' },
+      '2xl': { 'max': '1490px' },
+      '1xl': { 'max': '1390px' },
       'xl': { 'max': '1280px' },
       'lg': { 'max': '1024px' },
       'md': { 'max': '768px' },
@@ -25,9 +27,9 @@ const config: Config = {
     fontSize: {
       'sm': 'clamp(14px, 1.2vw, 16px)',
       'base': 'clamp(16px, 1.5vw, 20px)',
-      'xl': 'clamp(16px, 2.2vw, 24px)',
-      '2xl': 'clamp(22px, 2.4vw, 33px)',
-      '3xl': 'clamp(36px, 2.4vw, 46px)',
+      'xl': 'clamp(16px, 1.6vw, 24px)',
+      '2xl': 'clamp(22px, 1.9vw, 33px)',
+      '3xl': 'clamp(28px, 2.4vw, 46px)',
       'red-text': 'clamp(17px, 1.5vw, 27px)'
     }
   },
